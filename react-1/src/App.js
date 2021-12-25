@@ -7,12 +7,18 @@ function App() {
   const [age,setAge]=useState(0)
 
   function addOne(a){
+  
     setAge( age+a )
   }
   
-if(age>10){
-  return <div>coutre reach max value</div>
-}
+  function double(a){
+  //console.log(a+age)
+    setAge(()=>{
+      return a*age
+    })
+
+  }
+    
 
   return (
 
@@ -21,6 +27,7 @@ if(age>10){
 
           <button onClick={()=>addOne(1)}>add 1</button>
         <button onClick={()=>addOne(-1)}>reduce 1</button>
+        <button onClick={()=>double(2)}>double</button>
       
 
     </div>
