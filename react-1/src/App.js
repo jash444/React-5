@@ -1,37 +1,32 @@
-
+import logo from './logo.svg';
+import {Component} from "react"
 import './App.css';
-
-import { useState } from 'react';
-
-function App() {
-  const [age,setAge]=useState(0)
-
-  function addOne(a){
-  
-    setAge( age+a )
+class App extends Component{
+  constructor(){
+    super();
+    this.state={
+      string:"hello suppy"
+    };
   }
-  
-  function double(a){
-  //console.log(a+age)
-    setAge(()=>{
-      return a*age
-    })
-
+  render(){
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <button
+          onClick={()=>this.setState({string:"suppy-1"})}>click me</button>
+          <p>jaswanth</p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    );
   }
-    
-
-  return (
-
-<div className="App">
-     <h3>counter:{age}</h3>
-
-          <button onClick={()=>addOne(1)}>add 1</button>
-        <button onClick={()=>addOne(-1)}>reduce 1</button>
-        <button onClick={()=>double(2)}>double</button>
-      
-
-    </div>
-  );
-}
-
+} 
 export default App;
