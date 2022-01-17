@@ -18,6 +18,7 @@ export const Login=()=>{
     }
     if(isAuth){
        return "sus"
+       
        //<Navigate to={"/dashboard"} />
 
     }
