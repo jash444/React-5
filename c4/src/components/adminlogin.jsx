@@ -5,7 +5,7 @@ import {useDispatch,useSelector} from "react-redux"
 import { userloginsuccess } from "../redux/userlogin/action"
 
 
-export const Login=()=>{
+export const AdminLogin=()=>{
     const isAuth=useSelector(store=>store.isAuth)
     const [email,setEmail]=useState("")
     const [pass, setPass]=useState("")
@@ -17,7 +17,7 @@ export const Login=()=>{
 
     }
     if(isAuth){
-       return <Navigate to={"/dashboard"} />
+       return <Navigate to={"/Adimindashboard"} />
 
     }
 
