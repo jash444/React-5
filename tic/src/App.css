@@ -1,0 +1,31 @@
+.grid-item {
+  
+  border: 5px solid rgb(21, 145, 228);
+  padding: 20px;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  
+}
+.grid-container {
+  display: grid;
+  margin-left: 40%;
+  grid-template-columns: 100px 100px 100px ;
+  grid-template-rows: 100px 100px 100px;
+  
+  
+  padding: 30px;
+}
+h1{
+  color:blueviolet;
+  margin-left: 40%;
+}
+button{
+  margin-left: 40%;
+}
+.red{
+color: red;
+}
+.green{
+  color: green;
+}
