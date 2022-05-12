@@ -76,8 +76,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     "react-router-dom": "^6.3.0",
 
 npm install <br>
-npm  i react-dnd
-npm i react-dnd-html5-backend
-npm i router-dom
+npm  i react-dnd <br>
+npm i react-dnd-html5-backend <br>
+npm i router-dom <br>
 
   
