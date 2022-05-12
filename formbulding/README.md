@@ -68,5 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-  <img src="https://drive.google.com/file/d/1G897arioGc9NVIrW3FFvqGsX9hpqgavv/view?usp=sharing">
+
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.1.0",
+    "react-form-builder2": "^0.11.1",
+    "react-router-dom": "^6.3.0",
+
+npm install
+npm  i react-dnd
+npm i react-dnd-html5-backend
+npm i router-dom
+
   
