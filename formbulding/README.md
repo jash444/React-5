@@ -79,5 +79,15 @@ npm install <br>
 npm  i react-dnd <br>
 npm i react-dnd-html5-backend <br>
 npm i router-dom <br>
+<br>
+npm start
+<br>
+
+<br>
+for backend 
+
+<br>
+npm init 
+npm start server 
 
   
