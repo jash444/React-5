@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     "react-form-builder2": "^0.11.1",
     "react-router-dom": "^6.3.0",
 
-npm install
+npm install <br>
 npm  i react-dnd
 npm i react-dnd-html5-backend
 npm i router-dom
